@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ghuettoize"
+	"github.com/manuelarte/ghettoize_hook"
 	"github.com/sirupsen/logrus"
 )
 

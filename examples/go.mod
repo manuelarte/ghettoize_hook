@@ -5,7 +5,7 @@ go 1.23.5
 replace ghuettoize => ../
 
 require (
-	github.com/manuelarte/ghettoize_hook latest
+	github.com/manuelarte/ghettoize_hook v0.0.1-rc1
 	github.com/sirupsen/logrus v1.9.3
 )
 
