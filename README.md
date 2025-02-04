@@ -23,5 +23,5 @@ You can find an example in the [examples](./examples) folder.
 
 ## TODO
 
-Being able to configure it better
-Add roleplays
++ Being able to configure it better
++ Add roleplays
