@@ -1,10 +1,13 @@
-# Ghettoize Hook
+> [!NOTE]  
+> To add this hook you need to use [Logrus](https://github.com/sirupsen/logrus)
 
-Do you find boring to go through your logs, don't worry
+# 👊🏾Ghettoize Hook👊🏾
 
-## How To Use It
+Do you find boring to go through your logs?, don't worry I may have a solution...
 
-Ghettoize needs [ollama](https://ollama.com/). By default, is checking ollama locally  http://localhost:11434 with the model [gemma2:2b](https://ollama.com/library/gemma2:2b)
+## How To Use It?
+
+Ghettoize needs [ollama](https://ollama.com/). By default, is checking ollama locally in http://localhost:11434 with the model [gemma2:2b](https://ollama.com/library/gemma2:2b)
 
 Get ghettoize by:
 
@@ -17,9 +20,11 @@ ghettoizeHook, _ := ghuettoize.NewGhettoize()
 logrus.AddHook(ghettoizeHook)
 ```
 
+And then... just produce some logs.
+
 ## Example
 
-You can find an example in the [examples](./examples) folder.
+You can find an example on how to use ghettoize_hook, and what it looks like in the [examples](./examples) folder.
 
 ## TODO
 
